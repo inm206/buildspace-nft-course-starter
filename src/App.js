@@ -6,7 +6,9 @@ import myEpicNft from './utils/MyEpicNFT.json';
 
 const TWITTER_HANDLE = 'isaac_here';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
+// eslint-disable-next-line
 const OPENSEA_LINK = '';
+// eslint-disable-next-line
 const TOTAL_MINT_COUNT = 50;
 
 const CONTRACT_ADDRESS = "0xEc9d7Cd2a32a95568fc52C8E08867A86b2716813";
@@ -138,6 +140,7 @@ const App = () => {
 
   useEffect(() => {
     checkIfWalletIsConnected();
+    // eslint-disable-next-line
   }, [])
 
   /*
